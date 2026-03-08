@@ -15,12 +15,12 @@ transform = transforms.Compose([
 ])
 
 # 1.2加载数据集
-train_dataset = datasets.MNIST(root='../data',      #数据集存放路径
+train_dataset = datasets.MNIST(root='data',      #数据集存放路径
                                                      train = True,         #是否为训练集
                                                      transform = transform,
                                                      download = True,   #如果为True,自动下载;如果有，则取消下载
                                )
-test_dataset = datasets.MNIST(root='../data',                   #数据集的存放路径
+test_dataset = datasets.MNIST(root='data',                   #数据集的存放路径
                                                       train = False,                    #是否为训练集
                                                       transform = transform,    #数据预处理
                                                       download=True

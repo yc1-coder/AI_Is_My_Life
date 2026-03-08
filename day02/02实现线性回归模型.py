@@ -1,7 +1,6 @@
 import torch
 import matplotlib.pyplot as plt
 from torch import nn
-from x2paddle.project_convertor.pytorch.api_mapper import LinearModuleMapper
 
 #1.数据处理
 #1.1生成数据
@@ -11,9 +10,9 @@ noise = torch.rand(x.size())
 y = x*2 + noise
 
 #1.2定义超参数
-total_epoches = 1000       #迭代轮次
+total_epoches = 1000         #迭代轮次
 learning_rate = 0.01         #学习率
-Loss = nn.MSELoss()         #损失函数
+Loss = nn.MSELoss()          #损失函数
 
 #2.学习过程
 #2.1创建模型
@@ -33,7 +32,7 @@ optimizer = torch.optim.SGD(model.parameters(),   #指定需要优化的参数
 for epoch in range(total_epoches):
     outputs = model(x)          #1、前向传播
     loss = Loss(outputs,y)      #2、计算损失
-    optimizer.zero_grad()     #3、清空梯度
+    optimizer.zero_grad()       #3、清空梯度
     loss.backward()               #4、反向传播
     optimizer.step()              #5、更新参数
 
@@ -43,7 +42,6 @@ for epoch in range(total_epoches):
     if (epoch + 1) % 100 ==0:
         print(f'轮次/总轮次：{epoch}/{total_epoches}，损失值为：{loss:.4f}')
 
-#2.3模型评估
 
 #3.可视化
 #3.1样本于模型
