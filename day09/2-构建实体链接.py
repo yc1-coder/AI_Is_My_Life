@@ -11,7 +11,6 @@ def load_synonyms(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-
 def normalize_entity(entity_name, synonym_map):
     """
     将实体名映射为标准名。
