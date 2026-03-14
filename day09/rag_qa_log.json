@@ -1,0 +1,60 @@
+{
+  "query": "糖尿病患者的饮食习惯，用中文回复",
+  "entities": [
+    "糖尿病"
+  ],
+  "subgraph": [
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "CKD"
+    },
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "心血管疾病"
+    },
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "慢性肾病"
+    },
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "慢性肾脏病"
+    },
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "肾小管间质、肾微血管病变"
+    },
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "肾微血管硬化"
+    },
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "肾小管萎缩"
+    },
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "肾损伤"
+    },
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "糖尿病肾脏病变"
+    },
+    {
+      "head_entity": "糖尿病",
+      "relation": "Reason_Disease",
+      "tail_entity": "肾小球病变"
+    }
+  ],
+  "context": "你是一位专业的医疗知识助手。请基于以下提供的医学知识图谱信息，准确、清晰地回答用户的问题。\n如果图谱信息与问题不相关，请诚实地说明。不要编造信息。\n\n【知识图谱信息】\n• 糖尿病 Reason_Disease CKD\n• 糖尿病 Reason_Disease 心血管疾病\n• 糖尿病 Reason_Disease 慢性肾病\n• 糖尿病 Reason_Disease 慢性肾脏病\n• 糖尿病 Reason_Disease 肾小管间质、肾微血管病变\n• 糖尿病 Reason_Disease 肾微血管硬化\n• 糖尿病 Reason_Disease 肾小管萎缩\n• 糖尿病 Reason_Disease 肾损伤\n• 糖尿病 Reason_Disease 糖尿病肾脏病变\n• 糖尿病 Reason_Disease 肾小球病变\n\n【用户问题】\n糖尿病患者的饮食习惯，用中文回复",
+  "answer": "根据提供的医学知识图谱信息，糖尿病与肾脏病的相关性明确。因此，回答用户的问题时，我们需要注意糖尿病患者的饮食习惯对肾脏的影响。\n\n糖尿病患者的饮食习惯非常重要，因为它可以影响血糖控制和肾脏的健康。以下是一些建议：\n\n1. 控制碳水摄入：糖尿病患者应该控制碳水摄入，以避免血糖增加，降低肾脏的负担。\n2. 选择低脂肪、高蛋白食物：低脂肪、高蛋白食物可以帮助控制血糖和肾脏的健康。\n3. 避免高盐食物：高盐食物可以增加肾脏的负担，糖尿病患者应该避免或限制高盐食物的摄入。\n4. 多吃富营养食物：富营养食物，如蔬菜、水果、谷类和全谷食物，可以帮助控制血糖和肾脏的健康。\n5. 控制总热量：总热量控制可以帮助控制血糖和肾脏的健康。\n\n总之，糖尿病患者的饮食习惯非常重要，可以影响肾脏的健康。通过合理的饮食习惯，糖尿病患者可以控制血糖和肾脏的健康。"
+}
