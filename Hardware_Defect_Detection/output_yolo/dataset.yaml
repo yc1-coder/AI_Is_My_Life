@@ -1,0 +1,11 @@
+path: /Users/Mac/PycharmProjects/Cy/AI_Is_My_Life/Hardware_Defect_Detection/output_yolo
+train: images/train
+val: images/validation
+nc: 6
+names:
+- crazing
+- inclusion
+- patches
+- pitted_surface
+- rolled-in_scale
+- scratches
