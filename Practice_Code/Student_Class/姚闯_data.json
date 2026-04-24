@@ -1,0 +1,15 @@
+{
+  "name": "姚闯",
+  "age": 18,
+  "sex": "男",
+  "scores": {
+    "数学": {
+      "subject": "数学",
+      "score": 100,
+      "grade": "A",
+      "update_time": "2026-04-15 22:57:40"
+    }
+  },
+  "average_score": 100.0,
+  "create_time": "2026-04-15 22:57:40"
+}

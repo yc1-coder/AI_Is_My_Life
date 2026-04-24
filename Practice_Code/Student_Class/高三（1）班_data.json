@@ -1,0 +1,47 @@
+{
+  "class_name": "高三（1）班",
+  "students": {
+    "姚闯": {
+      "name": "姚闯",
+      "age": 18,
+      "sex": "男",
+      "scores": {
+        "数学": {
+          "subject": "数学",
+          "score": 100,
+          "grade": "A",
+          "update_time": "2026-04-15 22:57:40"
+        }
+      },
+      "average_score": 100.0,
+      "create_time": "2026-04-15 22:57:40"
+    },
+    "李华": {
+      "name": "李华",
+      "age": 17,
+      "sex": "女",
+      "scores": {
+        "语文": {
+          "subject": "语文",
+          "score": 85,
+          "grade": "B",
+          "update_time": "2026-04-15 22:57:40"
+        },
+        "数学": {
+          "subject": "数学",
+          "score": 92,
+          "grade": "A",
+          "update_time": "2026-04-15 22:57:40"
+        },
+        "英语": {
+          "subject": "英语",
+          "score": 88,
+          "grade": "B",
+          "update_time": "2026-04-15 22:57:40"
+        }
+      },
+      "average_score": 88.33,
+      "create_time": "2026-04-15 22:57:40"
+    }
+  }
+}
